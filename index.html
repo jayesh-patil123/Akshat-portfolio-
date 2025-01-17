@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Akshat Prasad - Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        
+        <!-- External Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+        
+        <!-- GSAP and Plugins -->
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/TextPlugin.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+        
+        <!-- GSAP Plugin Registration -->
+        <script>
+            gsap.registerPlugin(TextPlugin, ScrollTrigger);
+        </script>
+    
+        <!-- Custom Script -->
+        <script src="scripts.js" defer></script>
+    </head>
+    
+<body>
+    <!-- Particle Animated Header Section -->
+<section id="home" class="particle-header">
+    <div id="animated-bg"></div> <!-- New animated gradient background -->
+    <div id="particles-js"></div> <!-- Particle effect layer -->
+    <div class="header-content">
+        <img src="Akshat-Photo.jpg" alt="Akshat Prasad" class="profile-img">
+        <h1 class="animated-name">AKSHAT PRASAD</h1>
+    </div>
+</section>
+
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#work-experience">Work Experience</a></li>
+                <li><a href="#core-competencies">Core Competencies</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" style="padding: 20px; background-color: #f4f4f9; border-radius: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); max-width: 800px; margin: 30px auto; font-family: Arial, sans-serif;">
+        <h2 style="text-align: center; color: #2c3e50; font-size: 28px; margin-bottom: 20px; position: relative;">
+            About Me
+            <span style="display: block; width: 60px; height: 4px; background: #3498db; margin: 10px auto 0;"></span>
+        </h2>
+        <p style="font-size: 16px; line-height: 1.8; color: #34495e; text-align: justify; margin-bottom: 20px;">
+            I am a <strong>Chartered Accountant</strong> with over <strong>4.5 years of extensive experience</strong> in <strong>Accounting</strong>, <strong>Business Finance</strong>, and <strong>Compliance Reporting</strong>. My career journey reflects a commitment to delivering financial transparency and aligning business objectives with regulatory excellence.
+        </p>
+        <p style="font-size: 16px; line-height: 1.8; color: #34495e; text-align: justify; margin-bottom: 20px;">
+            Currently serving as the <strong>Finance Controller – Deputy Manager</strong> at <strong>Panchshil Realty</strong>, I lead the organization’s financial strategy, oversee <strong>external audits</strong>, and manage stakeholder relationships with global entities such as <strong>Blackstone</strong> and <strong>GIC</strong>. I excel at leveraging financial insights to drive business decisions, ensuring efficient fund management, and implementing robust compliance measures.
+        </p>
+        <p style="font-size: 16px; line-height: 1.8; color: #34495e; text-align: justify; margin-bottom: 20px;">
+            My tenure at <strong>Ernst & Young</strong> allowed me to master <strong>US SEC regulatory audits</strong>, including 10Ks and 10Qs, and develop expertise in <strong>data analytics</strong>, <strong>risk assessment</strong>, and <strong>financial disclosure requirements</strong>. Additionally, I have a proven track record in <strong>process optimization</strong> and <strong>team leadership</strong>, having mentored junior staff and managed complex audit engagements.
+        </p>
+        <p style="font-size: 16px; line-height: 1.8; color: #34495e; text-align: justify; margin-bottom: 20px;">
+            My technical proficiency includes tools such as <strong>SAP Hana</strong>, <strong>Power BI</strong>, and <strong>Advanced Excel</strong>, enabling me to deliver actionable insights and streamline financial processes. I am also skilled in <strong>global auditing practices</strong>, <strong>IFRS</strong>, and <strong>Ind AS</strong>, ensuring compliance with international standards.
+        </p>
+        <p style="font-size: 16px; line-height: 1.8; color: #34495e; text-align: justify;">
+            Passionate about continuous learning and innovation, I am pursuing <strong>ACCA certification</strong> to deepen my expertise in global financial management. My dedication to excellence drives me to seek challenges that allow me to enhance organizational growth and create lasting value.
+        </p>
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="Akshat Prasad - Finance.pdf" target="_blank" style="text-decoration: none; padding: 10px 20px; background-color: #3498db; color: #fff; border-radius: 5px; font-size: 16px;">View Resume</a>
+            <a href="https://www.linkedin.com/in/akshatprasad3443" target="_blank" style="text-decoration: none; padding: 10px 20px; background-color: #2ecc71; color: #fff; border-radius: 5px; font-size: 16px; margin-left: 10px;">Connect on LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+<section id="work-experience" class="work-experience">
+    <h2>Work Experience
+        <span class="underline"></span>
+    </h2>
+    <ul class="experience-list">
+        <li class="experience-item">
+            <div class="icon">
+                <img src="finance-controller-icon.png" alt="Finance Controller Icon">
+            </div>
+            <div class="content">
+                <h3><a href="finance-controller.html">Finance Controller – Panchshil Realty</a></h3>
+                <p>Leading strategic financial management, stakeholder engagement, and compliance initiatives since September 2023.</p>
+            </div>
+        </li>
+        <li class="experience-item">
+            <div class="icon">
+                <img src="consultant-icon.png" alt="Consultant Icon">
+            </div>
+            <div class="content">
+                <h3><a href="consultant.html">Consultant – Jugal P. Patil & Associates</a></h3>
+                <p>Conducted forensic audits and prepared detailed financial reports, May 2023 – August 2023.</p>
+            </div>
+        </li>
+        <li class="experience-item">
+            <div class="icon">
+                <img src="assurance-icon.png" alt="Assurance Icon">
+            </div>
+            <div class="content">
+                <h3><a href="assurance-senior.html">Assurance Senior – Ernst & Young</a></h3>
+                <p>Specialized in US SEC audits, data analytics, and financial disclosures, April 2022 – April 2023.</p>
+            </div>
+        </li>
+        <li class="experience-item">
+            <div class="icon">
+                <img src="article-assistant-icon.png" alt="Article Assistant Icon">
+            </div>
+            <div class="content">
+                <h3><a href="article-assistant.html">Article Assistant – M/s. SBH & Co.</a></h3>
+                <p>Gained foundational expertise in direct taxation, GST compliance, and audit execution, August 2016 – September 2019.</p>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<!-- Core Competencies Section -->
+<section id="core-competencies" class="core-competencies">
+    <h2>Core Competencies</h2>
+    <div class="competency-container">
+        <div class="competency-item">
+            <i class="fas fa-chart-line"></i>
+            <h3>Finance & Accounting</h3>
+            <p>Expertise in financial management, budgeting, and cost optimization.</p>
+        </div>
+        <div class="competency-item">
+            <i class="fas fa-database"></i>
+            <h3>Data Analytics</h3>
+            <p>Proficient in leveraging data-driven insights for strategic decision-making.</p>
+        </div>
+        <div class="competency-item">
+            <i class="fas fa-clipboard-check"></i>
+            <h3>IFRS and Ind AS</h3>
+            <p>Comprehensive knowledge and hands-on experience in International Financial Reporting Standards (IFRS) and Indian Accounting Standards (Ind AS).</p>
+        </div>
+        <div class="competency-item">
+            <i class="fas fa-globe"></i>
+            <h3>Global Auditing Practices</h3>
+            <p>In-depth understanding of international auditing standards and compliance frameworks.</p>
+        </div>
+        <div class="competency-item">
+            <i class="fas fa-file-invoice-dollar"></i>
+            <h3>US SEC Reporting</h3>
+            <p>Skilled in reviewing and submitting quarterly and year-end financial reports to the U.S. Securities and Exchange Commission (SEC).</p>
+        </div>
+        <div class="competency-item">
+            <i class="fas fa-cogs"></i>
+            <h3>Management Information Systems (MIS)</h3>
+            <p>Expertise in designing and preparing comprehensive MIS reports to facilitate executive decision-making.</p>
+        </div>
+        <div class="competency-item">
+            <i class="fas fa-cogs"></i>
+            <h3>Hedge Fund Financial Reporting</h3>
+            <p>Specialized in preparing and analyzing financial statements for hedge funds.</p>
+        </div>
+        <div class="competency-item">
+            <i class="fas fa-chart-pie"></i>
+            <h3>Financial Analysis</h3>
+            <p>Adept in conducting detailed financial performance reviews, variance analysis, and forecasting.</p>
+        </div>
+        <div class="competency-item">
+            <i class="fas fa-file-alt"></i>
+            <h3>Regulatory Reporting</h3>
+            <p>Experienced in preparing and ensuring compliance with regulatory submissions and requirements.</p>
+        </div>
+        <div class="competency-item">
+            <i class="fas fa-tasks"></i>
+            <h3>Project Execution & Management</h3>
+            <p>Proven track record in managing complex financial and operational projects to successful completion.</p>
+        </div>
+        <div class="competency-item">
+            <i class="fas fa-book"></i>
+            <h3>Documentation & Reporting</h3>
+            <p>Skilled in preparing comprehensive reports, policies, and procedural documentation.</p>
+        </div>
+        <div class="competency-item">
+            <i class="fas fa-users"></i>
+            <h3>Team Leadership & People Management</h3>
+            <p>Strong leadership capabilities, fostering collaborative team environments, and driving productivity.</p>
+        </div>
+    </div>
+</section>
+
+    
+    <!-- Skills Section -->
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="skill-item">
+            <div class="skill-icon">
+                <img src="https://img.icons8.com/ios-filled/50/000000/sap.png" alt="SAP Icon">
+            </div>
+            <div class="skill-description">
+                <strong>Technical Skills</strong>
+                <p>SAP Hana & SAP ECC, Tally ERP, Greythr, MS Excel, QuickBooks, Spectrum KDK, Plex ERP</p>
+            </div>
+        </div>
+        <div class="skill-item">
+            <div class="skill-icon">
+                <img src="Share point.jpg" alt="SharePoint Icon">
+            </div>
+            <div class="skill-description">
+                <strong>Business Tools</strong>
+                <p>SharePoint, Power BI, GL Analyzers for Data Analytics</p>
+            </div>
+        </div>
+        <div class="skill-item">
+            <div class="skill-icon">
+                <img src="https://img.icons8.com/ios-filled/50/000000/certificate.png" alt="Certification Icon">
+            </div>
+            <div class="skill-description">
+                <strong>Certifications</strong>
+                <p>Hedge Fund Financial Reporting, Blockchain and Bitcoin Fundamentals, Mastering Data Modeling Fundamentals</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-details">
+        <div class="contact-item">
+            <img src="https://img.icons8.com/ios-filled/50/000000/email.png" alt="Email Icon">
+            <p>Email: <a href="mailto:caakshatprasad@outlook.com">caakshatprasad@outlook.com</a></p>
+        </div>
+        <div class="contact-item">
+            <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" alt="Phone Icon">
+            <p>Phone: <a href="tel:+919766083255">+91 9766083255</a></p>
+        </div>
+        <div class="contact-item">
+            <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn Icon">
+            <p>LinkedIn: <a href="https://linkedin.com/in/akshatprasad3443" target="_blank">linkedin.com/in/akshatprasad3443</a></p>
+        </div>
+    </div>
+
+    <div class="contact-form-container">
+        <h3>Send a Message</h3>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 Akshat Prasad</p>
+    </footer>
+
+    <!-- Particle Effect and GSAP Animation Scripts -->
+    <script src="scripts.js"></script> <!-- Connecting the script.js -->
+</body>
+</html>
